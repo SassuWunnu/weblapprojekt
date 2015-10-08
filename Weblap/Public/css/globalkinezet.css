@@ -1,0 +1,50 @@
+*{ /* minden lapra érvényes globális beállítások*/
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+/* minden lapra érvényes háttér */
+body{ 
+    background: graytext;
+}
+
+/* fejléc kinézet beállításai */
+
+/*      ...    */
+
+
+/* menü kinézet beállításai */
+div#menutarolo{
+    width:700px;
+    margin: 50px auto;
+}
+ul#menu{
+    list-style: none;
+}
+ul#menu li{
+    float:left;
+    background: #2E4A5A;
+    width: 150px;
+    margin: 0 2px 0 0;
+}
+ul#menu li:hover{
+    background: #EAB138;
+}
+ul#menu li a{
+    color: #27B699;
+    padding: 15px;
+    display: block;
+}
+ul#menu li a:hover{
+    color:black;
+}
+
+/* Login ablak kinézete */
+
+/*      ...    */
+
+/* Lábléc kinézete */
+
+/*      ...    */
