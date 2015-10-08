@@ -9,5 +9,5 @@ Projekt tagok:
 -Fehér Petra
 -Czövek Beáta
 -Bak Ákos
--Kivés Gábor
+-Kívés Gábor
 >>>>>>> 2a8b2158b9e4ab20343d40018dcfcd469009db1c
