@@ -1,0 +1,4 @@
+Wamp szerver www mappájába téve a git mappát (weblapprojekt) 
+az oldal elérési útja a böngészõben:
+
+http://localhost/Weblapprojekt/Weblap/

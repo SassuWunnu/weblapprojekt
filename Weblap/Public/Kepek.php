@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Képek</title>
-         <link rel="stylesheet" href="../Public/css/Kepek.css"/>
+         <link rel="stylesheet" href="css/Kepek.css"/>
     </head>
     <body>
         <?php

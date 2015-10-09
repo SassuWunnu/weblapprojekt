@@ -4,12 +4,11 @@
     <head>
         <meta charset="UTF-8">
         <title>TDWebshopProjekt15</title>
-        <link rel="stylesheet" href="Public/css/Main.css"/>
+        <link rel="stylesheet" href="css/Main.css"/>
     </head>
     <body>      
         <?php
-        
-        include ('Protected/global.php'); 
+        include ("../Protected/global.php"); 
         ?> <!-- Minden oldalon megjelenő részek -->
         
     <center>
@@ -19,3 +18,4 @@
     </center>
     </body>
 </html>
+
