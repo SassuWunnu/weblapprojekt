@@ -4,18 +4,25 @@
     <head>
         <meta charset="UTF-8">
         <title>TDWebshopProjekt15</title>
-        <link rel="stylesheet" href="css/Main.css"/>
+        <link rel="stylesheet" href="css/Kezdolap.css"/>
     </head>
-    <body>      
-        <?php
-        include ("../Protected/global.php"); 
-        ?> <!-- Minden oldalon megjelenő részek -->
-        
-    <center>
-        <?php
-            echo date('H:i, jS F Y'); 
+    <body>    
+      <div id="wrapper">
+        <?php include("../Protected/header.php");
+              include("../Protected/menu.php");
+              include("../Protected/login.php");
         ?>
-    </center>
+        <div id="body">
+            <center>
+                <?php
+                    echo date('H:i, jS F Y'); 
+                ?>
+            </center>
+        </div>
+        <?php
+        include ("../Protected/footer.php"); 
+        ?>
+      </div>
     </body>
 </html>
 
