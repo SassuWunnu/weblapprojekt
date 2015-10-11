@@ -3,8 +3,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Kapcsolat</title>
-        <link rel="stylesheet" href="css/Kapcsolat.css"/>
+        <title>Referencia munkák</title>
+        <link rel="stylesheet" href="css/Referencia.css"/>
     </head>
     <body>
       <div id="wrapper">

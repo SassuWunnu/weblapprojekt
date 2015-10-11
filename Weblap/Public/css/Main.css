@@ -33,7 +33,7 @@ body{
 
 /* ================================  MENU ================================ */
 div#menutarolo{
-    width:700px;
+    width:850px;
     margin-top:0px;
     margin-bottom:20px;
     margin-left:auto;
@@ -45,7 +45,7 @@ ul#menu{
 ul#menu li{
     float:left;
     background: #2E4A5A;
-    width: 150px;
+    width: 160px;
     margin: 0 2px 0 0;
 }
 ul#menu li:hover{
@@ -60,11 +60,14 @@ ul#menu li a:hover{
     color:black;
 }
 
-/* ================================  LOGINABLAK ================================ */
+/* ================================  OLDALSÁV ================================ */
+
+/*=== Login Ablak ===*/
 div#logintarolo{
     width:150px;
     float:left;
 }
+
 
 /* ================================  FOOTER ================================ */
 
