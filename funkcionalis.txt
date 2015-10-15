@@ -1,3 +1,5 @@
+Funkciók:
+
 - Belépés 
 - Regisztráció
 - Képek feltöltése
@@ -13,3 +15,40 @@
 - Adatbáziskezelés
 - Adatbázistáblák: felhasználók, képek és egyéb alkotásoknak a képei
 - Weblap statisztika (látogatottság)
+
+Képernyõk: 
+
+- kezdõlap
+- eladó képek
+- rendelés
+- referenciamunkák
+- kapcsolat
+-regisztráció
+Megjegyzés: a belépés/regisztráció minden képernyõn elérhetõ, de a regisztráció új képernyõn történik
+
+___________________________________________________________________________________________________________________
+|			Kezdõlap	Eladó képek	Rendelés	Referenciamunkák	Kapcsolat
+|
+|
+|
+|Felhasználónév:			Tartalom	Tartalom	Tartalom	Tartalom
+| _____________	
+||_____________|			Tartalom	Tartalom	Tartalom	Tartalom
+|Jelszó:
+|_____________				Tartalom	Tartalom	Tartalom	Tartalom
+||____________|				
+|Belépés/Regisztráció			Tartalom	Tartalom	Tartalom	Tartalom
+|Elfelejtett jelszó
+|					Tartalom	Tartalom	Tartalom	Tartalom
+|
+|					Tartalom	Tartalom	Tartalom	Tartalom
+|
+|
+|
+|
+|
+|
+|
+|
+|					
+|_______________________________________Footer_____________________________Footer____________________________________________
