@@ -1,1 +1,15 @@
-tgtgtgtgtgtgtg
+- Belépés 
+- Regisztráció
+- Képek feltöltése
+- Képek megjelenítése 
+- Eladandó képek eladása
+- Eddigi munkák megjelenítése
+- Képek kezelése, listázás, nagyítás
+- Rendelés feladásának lehetõsége (kép, design,logó,stb.)
+- Paypal donate
+- Online fizetés
+- Elérhetõségek megjelenítése
+- E-mail küldés, hiba bejelentés
+- Adatbáziskezelés
+- Adatbázistáblák: felhasználók, képek és egyéb alkotásoknak a képei
+- Weblap statisztika (látogatottság)
