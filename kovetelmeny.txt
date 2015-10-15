@@ -1,0 +1,6 @@
+Ez egy olyan weboldal lesz ahol be lehet lépni felhasználónévvel és jelszóval vagy e-mail címmel és jelszóval.
+Képeket lehet megtekinteni illetve azokat megvásárolni amik eladóak. 
+Az alkotó eddigi munkáit meg lehet tekinteni.
+Rendeléseket feladni az éppen aktuális kategóriákra, amik például: design,digitális kép, festmény stb.
+Az admin jogosultsággal rendelkezõ felhasználó módosíthatja a kezdõlap tartalmát és képeket tölthet fel, illetve a látogatottsági statisztikát tekintheti meg.
+Online fizetés paypalon keresztül illetve adományozás (donate) funkció.
