@@ -33,7 +33,7 @@ body{
 
 /* ================================  MENU ================================ */
 div#menutarolo{
-    width:850px;
+    width:810px;
     margin-top:0px;
     margin-bottom:20px;
     margin-left:auto;
@@ -66,6 +66,7 @@ ul#menu li a:hover{
 div#logintarolo{
     width:150px;
     float:left;
+	margin-left: 10px;
 }
 
 
