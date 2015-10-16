@@ -10,9 +10,19 @@
       <div id="wrapper">
          <?php include("../Protected/header.php");
                include("../Protected/menu.php");
-               include("../Protected/oldalsav.php");
+        
         ?>
-        <div id="body">
+          <div id="oldalsavbal">
+            <?php
+            include("../Protected/oldalsavbal.php");
+            ?>
+        </div>
+          <div id="oldalsavjobb">
+            <?php
+            include("../Protected/oldalsavjobb.php");
+            ?>
+        </div>
+        <div id="tartalom">
            
         </div>
         

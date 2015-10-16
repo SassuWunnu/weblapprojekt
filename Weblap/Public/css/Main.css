@@ -11,35 +11,42 @@ html{
 }
 
 body{ 
-    background: graytext; /*Minden lapon megjelenő háttér ami képre is váltható*/
+    background: grey; /*Minden lapon megjelenő háttér ami képre is váltható*/
     margin:0;
     padding:0;
     height:100%;
 }
-#wrapper{ /*különböző diveket(header, menu,login,body,footer) tartalmazó div*/
+#wrapper{ /*különböző diveket(header, menu,body,footer) tartalmazó div*/
     min-height: 100%;
+    width: 1200px;
     position: relative;
+    margin: 0 auto;
+    background: #AC7550;
 }
 
 
 /* ================================  HEADER ================================ */
 #header{
-    width:600px;
-    margin-top:0px;
+    background:#C5B935;
+    width:1200px;
+    margin-top:2px;
     margin-bottom:0px;
     margin-left:auto;
     margin-right:auto;
+    text-align:center;
 }
 
 /* ================================  MENU ================================ */
 div#menutarolo{
-    width:810px;
-    margin-top:0px;
-    margin-bottom:20px;
+    background: #63A84E;
+    width:1200px;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:10px;
+    margin-top:0px;
 }
 ul#menu{
+    margin-left: 195px;
     list-style: none;
 }
 ul#menu li{
@@ -61,18 +68,40 @@ ul#menu li a:hover{
 }
 
 /* ================================  OLDALSÁV ================================ */
-
+div#oldalsavbal{
+  margin-left: -250px;
+  top:0px;
+  left: 250px;
+  width: 250px;
+  background: #2E4A5A;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;  
+}
+div#oldalsavjobb{
+  margin-right: -250px;
+  top:0px;
+  right: 250px;
+  width: 250px;
+  background: #2E4A5A;
+  position: fixed;
+  height: 100%;
+  overflow-x: auto;
+  z-index: 1000;  
+}
 /*=== Login Ablak ===*/
 div#logintarolo{
     width:150px;
-    float:left;
-	margin-left: 10px;
+    margin-top:100px;
+    margin-left: 10px;
 }
 
 
 /* ================================  FOOTER ================================ */
 
 #footer{
+    background: #E69696;
     height: 35px;
     width:100%;
     position: absolute;

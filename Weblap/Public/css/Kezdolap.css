@@ -1,9 +1,12 @@
 @import "Main.css";
 
-div#kezdolaptartalom{
-	width:1200px;
-	height:700px;
-	margin-left:auto;
+div#tartalom{
+    background:#6CACDD;
+    width:1200px;
+    margin-left:auto;
     margin-right:auto;
-	border: groove;
+    
+}
+ul{
+    list-style: none;
 }

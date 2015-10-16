@@ -10,10 +10,22 @@
       <div id="wrapper">
        <?php include("../Protected/header.php");
                include("../Protected/menu.php");
-               include("../Protected/oldalsav.php");
+             
         ?>
-        <div id="body">
-           <p><center> Teszt szöveg </center></p>
+         <div id="oldalsavbal">
+            <?php
+            include("../Protected/oldalsavbal.php");
+            ?>
+        </div>
+          <div id="oldalsavjobb">
+            <?php
+            include("../Protected/oldalsavjobb.php");
+            ?>
+        </div>
+        <div id="tartalom">
+           <p><center> Teszt szöveg</center></p
+          
+        
         </div>
         
         
