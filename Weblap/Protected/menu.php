@@ -3,11 +3,11 @@
 
 <div id="menutarolo">
     <ul id="menu">
-        <li><a href="Kezdolap.php"><center>Kezdőlap</center></a></li>
-        <li><a href="Kepek.php"><center>Eladó képek</center></a></li>
-        <li><a href="Rendeles.php"><center>Rendelés</center></a></li>
-        <li><a href="Referencia.php"><center>Referencia munkák</center></a></li>
-        <li><a href="Kapcsolat.php"><center>Kapcsolat</center></a></li>      
+        <li><a href="Kezdolap.php">Kezdőlap</a></li>
+        <li><a href="Kepek.php">Eladó képek</a></li>
+        <li><a href="Rendeles.php">Rendelés</a></li>
+        <li><a href="Referencia.php">Referencia munkák</a></li>
+        <li><a href="Kapcsolat.php">Kapcsolat</a></li>      
     </ul>
     <div style="clear:both"></div>
 </div>

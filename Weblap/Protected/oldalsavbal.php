@@ -1,3 +1,8 @@
+<!-- oldalsáv eltüntető gomb -->
+
+<div id="menugombbent">
+            <input type="image" src="designstuff/cross.png"></button>
+</div>
 
 <!-- Login ablak -->
 
@@ -11,3 +16,9 @@
     </form>
 </fieldset>
 </div>
+
+<!-- Menü -->
+
+<?php
+    include("../Protected/menu.php");
+?>

@@ -5,12 +5,15 @@
         <meta charset="UTF-8">
         <title>TDWebshopProjekt15</title>
         <link rel="stylesheet" href="css/Kezdolap.css"/>
+        <script src="js/jquery-2.1.4.js"></script>       
     </head>
-    <body>
+    <body>    
       <div id="wrapper">
+         <div id="menugombkinti">
+            <input type="image" src="designstuff/menugomb.png"></button>
+         </div>
         <?php 
-            include("../Protected/header.php");
-            include("../Protected/menu.php");             
+            include("../Protected/header.php");            
         ?>
         <div id="oldalsavbal">
             <?php
@@ -22,6 +25,7 @@
                 include("../Protected/oldalsavjobb.php");
             ?>
         </div>
+          
         <div id="tartalom">
             <br>
             <p><h1><center>Üdv a honlapon</center></h1></p>
@@ -58,6 +62,8 @@
             include ("../Protected/footer.php"); 
         ?>
       </div>
+    </sript>
+    <script language="javascript" type="text/javascript"  src="js/menu.js"></script>
     </body>
 </html>
 
