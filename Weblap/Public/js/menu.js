@@ -3,7 +3,7 @@ $(function() {
       $('#oldalsavbal').slideToggle();
   });
   $('#menugombbent').click(function() {  
-      $('#oldalsavbal').slideToggle();
+      $('#oldalsavbal').slideToggle();      
   });
 });
 
