@@ -28,6 +28,9 @@ Lesz bejelentkezés: ezt adatbázisban kezeljük
 felhasználónév
 jelszó
 
+Bejelentkezés után indul egy Session ami eltüntei a login ablakot és helyette egy információs dobozt ad ami tartalmazza a felhasználó adatait, és egyébb funkciókat
+amiket megtehet a jogosultságával valamint a kijelentkezés gombot is odageneráljuk.
+
 Lesz regisztráció: ezt is adatbázisban kezeljük, de e-mail címet is meg kell adni a felhasználónéven túl. Ez késõbb nem látható.
 
 Az adatbázis táblái:
