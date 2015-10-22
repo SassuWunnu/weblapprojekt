@@ -12,18 +12,11 @@
           <div id="menugombkinti">
             <input type="image" src="designstuff/menugomb.png"></button>
          </div>
-         <?php include("../Protected/header.php");
-        ?>
-          <div id="oldalsavbal">
-            <?php
-            include("../Protected/oldalsavbal.php");
-            ?>
-        </div>
-          <div id="oldalsavjobb">
-            <?php
+         <?php 
+            include("../Protected/header.php");  
+            include("../Protected/oldalsavbal.php");  
             include("../Protected/oldalsavjobb.php");
-            ?>
-        </div>
+        ?>
         <div id="tartalom">
            
         </div>
