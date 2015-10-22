@@ -1,1 +1,42 @@
-ez lesz a rendszerterv
+Egy weboldal/webshop amelynek segítségével képeket/dizájnokat rendelhetünk egy mûvésztõl.
+
+Lesznek oldalak amik egyben menüpontok is, ha máshogy nem jelöljük:
+
+kezdõlap - üdvözlés, paypal-donate
+eladó képek - paypalos vásárlás
+rendelés - egy ûrlap, amin leírás alapján lehet rendelni valamilyen munkát. Ebbõl generálódik egy üzenet, amelyet az alkotónak küldünk el.
+referenciamunkák - eddigi munkák adatbázisból
+kapcsolat - ûrlap hibák jelentésére és egyéb üzenetek részére az alkotónak.
+lesz egy e-mail visszaigazoló mechanizmus 
+
+Minden egyes oldalon a fix felépítés:
+-blokkos div megoldással
+-wrapper: Minden egyes lejjebb található elemet tartalmazó blokk azaz az egész oldal
+	-menügomb(szabadon mozgatható semmitõl se függõ kép ami gombnak hiszi magát)
+	-header (másik fájlban található html tartalmat beillesztjük php segítségével)
+	-oldalsáv bal oldali
+		-menü bezáró gomb
+		-bejelentkezés/regisztráció
+		-menü
+	-jobb oldali oldalsáv (e pillanatban le van tiltva 10.22) - opcionálisan a jobb oldalon is lehet a menü vagy egyéb információk
+	-Minden egyes oldalhoz tartozó egyedi blokk amiben az adott oldal tartalma taláható
+	-footer
+-scriptek
+
+
+Lesz bejelentkezés: ezt adatbázisban kezeljük
+felhasználónév
+jelszó
+
+Lesz regisztráció: ezt is adatbázisban kezeljük, de e-mail címet is meg kell adni a felhasználónéven túl. Ez késõbb nem látható.
+
+Az adatbázis táblái:
+- felhasználók - itt lesznek azok a felhasználók, akik visszaigazolták az e-mailt. Azért van különválasztva a regisztráltaktól, hogy ne lehessen egy szkripttel túlterhelni.
+- regisztráció - mert dinweben azt tanultuk, hogy kell külön ilyen. Itt azok vannak, akik nem igazolták vissza az e-mailt.
+- jelszavak - ez azért kell, hogy külön eldughassuk valahová, vagyis biztonsági szempontokból. Ne listázzuk ki a jelszavakat ha lekérdezünk a felhasználó
+- eladó képek
+- referenciamunkák
+- jogosultságok: ez azért kell, mert többféle jogosultsággal lehet belépni; 
+	felhasználó - aki vásárol, rendel és nézegeti az oldalt,
+	mûvész - aki tud képeket/munkákat feltölteni,
+	admin - aki mindent tud csinálni.
