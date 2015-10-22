@@ -1,3 +1,5 @@
+<div id="oldalsavbal">
+    
 <!-- oldalsáv eltüntető gomb -->
 
 <div id="menugombbent">
@@ -22,3 +24,5 @@
 <?php
     include("../Protected/menu.php");
 ?>
+
+</div>
