@@ -7,7 +7,9 @@ eladó képek - paypalos vásárlás
 rendelés - egy ûrlap, amin leírás alapján lehet rendelni valamilyen munkát. Ebbõl generálódik egy üzenet, amelyet az alkotónak küldünk el.
 referenciamunkák - eddigi munkák adatbázisból
 kapcsolat - ûrlap hibák jelentésére és egyéb üzenetek részére az alkotónak.
-lesz egy e-mail visszaigazoló mechanizmus 
+lesz egy e-mail visszaigazoló mechanizmus - ez nem egy külön oldal lesz, hanem egy felugró ablak. 
+	Ha a visszaigazoló e-mailben kapott linkre kattint, az adott felhasználó 'regisztráció' táblában rögzített adatait
+	 a 'felhasználók' táblába másoljuk, a regisztrációs táblából pedig töröljük.
 
 Minden egyes oldalon a fix felépítés:
 -blokkos div megoldással
