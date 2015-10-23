@@ -17,9 +17,7 @@ body{
     padding:0;
     height:100%;
 }
-
 #wrapper{ /*különböző diveket(header, menu,body,footer) tartalmazó div*/
-    height: 100%;
     min-height:100%;
     width: 100%;
     min-width:100%;
@@ -27,16 +25,15 @@ body{
     margin: 0 auto;
     background: #AC7550;
 }
-/*
+
 div#tartalom{
-   position:fixed;
+   position:relative;
    margin-top:101px;
    margin-left:auto;
    margin-right:auto;
-   margin-bottom:1px;
+   padding-bottom:20px;
    background:#6CACDD;
-   height: 100%;
-}*/
+}
 .menugombkinti{
     float:left;
     cursor:pointer;
@@ -65,6 +62,7 @@ div#tartalom{
     margin-left:auto;
     margin-right:auto;
     text-align:center;
+    z-index:999;
 }
 
 /* ================================  OLDALSÁV ================================ */
@@ -144,17 +142,15 @@ div#logintarolo{
 
 
 /* ================================  FOOTER ================================ */
-/*
+
 #footer{
+    top:100%;
     bottom:0;
     background: #E69696;
     height: 35px;
     width:100%;
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;;
-}*/
+    clear:both;
+    position: absolute;
+}
 
 

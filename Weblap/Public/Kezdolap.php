@@ -43,42 +43,7 @@
                             <li> szürke: háttér</li>
                         </ul>
                     </p>
-            </center>
-            <p>Lorem ipsum dolor sit amet, eu pro congue urbanitas. Case primis deserunt id ius, accusata nominati perpetua ad eam. Ut efficiendi assueverit scribentur usu, vel te eligendi deleniti, mel putent delectus laboramus cu. Probo doctus an ius, facete deterruisset sit eu. Ad veri solet delicatissimi nam, has libris feugiat te, usu minimum praesent ad. Movet neglegentur at pri, ridens admodum ius at, usu voluptua reprehendunt ea.
-
-Mel ne hinc dolorum, eos nihil contentiones id, nam ad virtute expetenda. Eligendi probatus necessitatibus ius te, congue incorrupte ei vix, ut sit autem luptatum. Graece ponderum quaestio nam an. Ex nec legere delicata reprimique, ad error voluptua mandamus vim. Nec posidonium omittantur ut, vitae epicurei convenire has et. Et duo vero ignota, vim admodum definitionem ea, pri an petentium hendrerit scribentur.
-
-Nec an tacimates torquatos tincidunt, ius dicat partem petentium no. Eu mea stet veri. Ad petentium scriptorem usu. Ad enim reque urbanitas sed. Per soleat expetenda ei. Id eos choro quaeque, exerci latine an ius, fierent quaestio pri cu.
-
-Sed id partem accusam. Verear suscipit salutandi his ex, debet doctus deterruisset no per. Nam cu aliquid laoreet cotidieque, sed aliquip periculis cotidieque at. Legere dictas deleniti at vim, eum utinam petentium cu. Harum commune dissentiunt vel cu. Sed partem viderer ne, sint dolorum detraxit mei ut.
-
-Pro putant epicuri an. Mei ex hinc illud vivendo. Vidisse dolores accusata duo et, his ei admodum qualisque appellantur. Purto dolorem mea ne, cibo essent voluptatum nam ei.
-            Lorem ipsum dolor sit amet, eu pro congue urbanitas. Case primis deserunt id ius, accusata nominati perpetua ad eam. Ut efficiendi assueverit scribentur usu, vel te eligendi deleniti, mel putent delectus laboramus cu. Probo doctus an ius, facete deterruisset sit eu. Ad veri solet delicatissimi nam, has libris feugiat te, usu minimum praesent ad. Movet neglegentur at pri, ridens admodum ius at, usu voluptua reprehendunt ea.
-
-Mel ne hinc dolorum, eos nihil contentiones id, nam ad virtute expetenda. Eligendi probatus necessitatibus ius te, congue incorrupte ei vix, ut sit autem luptatum. Graece ponderum quaestio nam an. Ex nec legere delicata reprimique, ad error voluptua mandamus vim. Nec posidonium omittantur ut, vitae epicurei convenire has et. Et duo vero ignota, vim admodum definitionem ea, pri an petentium hendrerit scribentur.
-
-Nec an tacimates torquatos tincidunt, ius dicat partem petentium no. Eu mea stet veri. Ad petentium scriptorem usu. Ad enim reque urbanitas sed. Per soleat expetenda ei. Id eos choro quaeque, exerci latine an ius, fierent quaestio pri cu.
-
-Sed id partem accusam. Verear suscipit salutandi his ex, debet doctus deterruisset no per. Nam cu aliquid laoreet cotidieque, sed aliquip periculis cotidieque at. Legere dictas deleniti at vim, eum utinam petentium cu. Harum commune dissentiunt vel cu. Sed partem viderer ne, sint dolorum detraxit mei ut.
-
-Pro putant epicuri an. Mei ex hinc illud vivendo. Vidisse dolores accusata duo et, his ei admodum qualisque appellantur. Purto dolorem mea ne, cibo essent voluptatum nam ei.Lorem ipsum dolor sit amet, eu pro congue urbanitas. Case primis deserunt id ius, accusata nominati perpetua ad eam. Ut efficiendi assueverit scribentur usu, vel te eligendi deleniti, mel putent delectus laboramus cu. Probo doctus an ius, facete deterruisset sit eu. Ad veri solet delicatissimi nam, has libris feugiat te, usu minimum praesent ad. Movet neglegentur at pri, ridens admodum ius at, usu voluptua reprehendunt ea.
-
-Mel ne hinc dolorum, eos nihil contentiones id, nam ad virtute expetenda. Eligendi probatus necessitatibus ius te, congue incorrupte ei vix, ut sit autem luptatum. Graece ponderum quaestio nam an. Ex nec legere delicata reprimique, ad error voluptua mandamus vim. Nec posidonium omittantur ut, vitae epicurei convenire has et. Et duo vero ignota, vim admodum definitionem ea, pri an petentium hendrerit scribentur.
-
-Nec an tacimates torquatos tincidunt, ius dicat partem petentium no. Eu mea stet veri. Ad petentium scriptorem usu. Ad enim reque urbanitas sed. Per soleat expetenda ei. Id eos choro quaeque, exerci latine an ius, fierent quaestio pri cu.
-
-Sed id partem accusam. Verear suscipit salutandi his ex, debet doctus deterruisset no per. Nam cu aliquid laoreet cotidieque, sed aliquip periculis cotidieque at. Legere dictas deleniti at vim, eum utinam petentium cu. Harum commune dissentiunt vel cu. Sed partem viderer ne, sint dolorum detraxit mei ut.
-
-Pro putant epicuri an. Mei ex hinc illud vivendo. Vidisse dolores accusata duo et, his ei admodum qualisque appellantur. Purto dolorem mea ne, cibo essent voluptatum nam ei.Lorem ipsum dolor sit amet, eu pro congue urbanitas. Case primis deserunt id ius, accusata nominati perpetua ad eam. Ut efficiendi assueverit scribentur usu, vel te eligendi deleniti, mel putent delectus laboramus cu. Probo doctus an ius, facete deterruisset sit eu. Ad veri solet delicatissimi nam, has libris feugiat te, usu minimum praesent ad. Movet neglegentur at pri, ridens admodum ius at, usu voluptua reprehendunt ea.
-
-Mel ne hinc dolorum, eos nihil contentiones id, nam ad virtute expetenda. Eligendi probatus necessitatibus ius te, congue incorrupte ei vix, ut sit autem luptatum. Graece ponderum quaestio nam an. Ex nec legere delicata reprimique, ad error voluptua mandamus vim. Nec posidonium omittantur ut, vitae epicurei convenire has et. Et duo vero ignota, vim admodum definitionem ea, pri an petentium hendrerit scribentur.
-
-Nec an tacimates torquatos tincidunt, ius dicat partem petentium no. Eu mea stet veri. Ad petentium scriptorem usu. Ad enim reque urbanitas sed. Per soleat expetenda ei. Id eos choro quaeque, exerci latine an ius, fierent quaestio pri cu.
-
-Sed id partem accusam. Verear suscipit salutandi his ex, debet doctus deterruisset no per. Nam cu aliquid laoreet cotidieque, sed aliquip periculis cotidieque at. Legere dictas deleniti at vim, eum utinam petentium cu. Harum commune dissentiunt vel cu. Sed partem viderer ne, sint dolorum detraxit mei ut.
-
-Pro putant epicuri an. Mei ex hinc illud vivendo. Vidisse dolores accusata duo et, his ei admodum qualisque appellantur. Purto dolorem mea ne, cibo essent voluptatum nam ei.
-            </p>	
+            </center>	
         </div>
         <?php
             include ("../Protected/footer.php"); 
