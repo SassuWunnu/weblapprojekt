@@ -1,20 +1,4 @@
-﻿<!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>TDWebshopProjekt15</title>
-        <link rel="stylesheet" href="css/Kezdolap.css"/>
-        <script src="js/jquery-2.1.4.min.js"></script>
-    </head>
-    <body>    
-      <div id="wrapper">        
-        <?php 
-            include("../Protected/header.php");  
-            include("../Protected/oldalsavbal.php");  
-            include("../Protected/oldalsavjobb.php");
-        ?>
-        <div id="tartalom">
+<div id="Kezdolap">
             <br>
             <p><h1><center>Üdv a honlapon</center></h1></p>
             <br>
@@ -44,13 +28,5 @@
                         </ul>
                     </p>
             </center>	
-        </div>
-        <?php
-            include ("../Protected/footer.php"); 
-        ?>
-      </div>
-   
-    <script src="js/menu.js"></script>
-    </body>
-</html>
+    </div>
 

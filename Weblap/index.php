@@ -6,7 +6,7 @@ a linkelési probléma kiküszöbölésén kívül nincs -->
     
     
    <?php
-     header("Location: Public/Kezdolap.php");
+     header("Location: Public/Main.php");
      exit;
    ?> 
 </html>

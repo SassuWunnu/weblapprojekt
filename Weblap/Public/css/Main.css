@@ -1,4 +1,7 @@
-
+@import "Kepek.css";
+@import "Kezdolap.css";
+@import "Referencia.css";
+@import "Rendeles.css";
 /* ================================  Global ================================ */
 *{ /*Általános mindenre jellemző beállítások*/
     padding: 0;
@@ -17,7 +20,7 @@ body{
     padding:0;
     height:100%;
 }
-#wrapper{ /*különböző diveket(header, menu,body,footer) tartalmazó div*/
+#wrapper{ /*különböző diveket(header,tartalom,footer) tartalmazó div*/
     min-height:100%;
     width: 100%;
     min-width:100%;
@@ -26,7 +29,7 @@ body{
     background: #AC7550;
 }
 
-div#tartalom{
+.tartalom{
    position:relative;
    margin-top:101px;
    margin-left:auto;
@@ -34,7 +37,7 @@ div#tartalom{
    padding-bottom:20px;
    background:#6CACDD;
 }
-.menugombkinti{
+.oldalsavgombkint{
     float:left;
     cursor:pointer;
     padding:12px;
@@ -64,6 +67,40 @@ div#tartalom{
     text-align:center;
     z-index:999;
 }
+/*=== Menü ===*/
+   
+   
+div#menutarolo{
+    background: #63A84E; /*menü box szín, ha végleges a beállítás ki lehet szedni */
+    width:640px;
+    height:auto;
+    margin:40px auto auto auto;
+}
+ul#menu{
+    margin-left:0px;
+    list-style: none;
+}
+ul#menu li{
+    float:left;
+    text-align:center;
+    background: #2E4A5A;
+    width: 160px;
+    transition: ease .4s;
+}
+ul#menu li:hover{
+    background: #EAB138;
+    transition: ease .4s;
+}
+ul#menu li a{
+    color: #27B699;
+    padding: 5px;
+    display: block;
+    transition: ease .4s;
+}
+ul#menu li a:hover{ 
+    color:black;
+    transition: ease .4s;   
+}
 
 /* ================================  OLDALSÁV ================================ */
 div#oldalsavbal{  
@@ -87,44 +124,6 @@ div#oldalsavjobb{
   height: 100%;
   overflow-x: auto;
   z-index: 1000;  
-}
-
-
-   /*=== Menü ===*/
-   
-   
-div#menutarolo{
-    background: #63A84E; /*menü box szín, ha végleges a beállítás ki lehet szedni */
-    width:250px;
-    height:auto;
-    margin-bottom:auto;
-    margin-top:50px;
-}
-ul#menu{
-    margin-left:0px;
-    list-style: none;
-    border-bottom:solid 1px;
-}
-ul#menu li{
-    text-align:center;
-    border-top:solid 1px;
-    background: #2E4A5A;
-    width: 250px;
-    transition: ease .4s;
-}
-ul#menu li:hover{
-    background: #EAB138;
-    transition: ease .4s;
-}
-ul#menu li a{
-    color: #27B699;
-    padding: 25px;
-    display: block;
-    transition: ease .4s;
-}
-ul#menu li a:hover{ 
-    color:black;
-    transition: ease .4s;   
 }
 
 
