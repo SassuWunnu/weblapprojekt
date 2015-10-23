@@ -1,9 +1,9 @@
 $(function() {
-  $('#menugombkinti').click(function() {  
-      $('#oldalsavbal').animate({ "left": "+=250" }, "slow" ); //százalékosan is megadható a mozgatás
+  $('.menugombkinti').click(function() {  
+      $('#oldalsavbal').animate({ "left": "+=250" }, "fast" ); //százalékosan is megadható a mozgatás
   });
   $('#menugombbent').click(function() {  
-      $('#oldalsavbal').animate({ "left": "-=250px" }, "slow" );
+      $('#oldalsavbal').animate({ "left": "-=250px" }, "fast" );
   });
 });
 

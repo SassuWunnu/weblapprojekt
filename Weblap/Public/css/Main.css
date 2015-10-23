@@ -17,66 +17,60 @@ body{
     padding:0;
     height:100%;
 }
+
 #wrapper{ /*különböző diveket(header, menu,body,footer) tartalmazó div*/
-    min-height: 100%;
+    height: 100%;
+    min-height:100%;
     width: 100%;
-    min-width:1200px;
+    min-width:100%;
     position: relative;
     margin: 0 auto;
     background: #AC7550;
 }
-#menugombkinti{
+/*
+div#tartalom{
+   position:fixed;
+   margin-top:101px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:1px;
+   background:#6CACDD;
+   height: 100%;
+}*/
+.menugombkinti{
     float:left;
+    cursor:pointer;
+    padding:12px;
+    background: #2E4A5A;
 }
-
+.icon{
+    background:white;
+    display:block;
+    width: 22px;
+    height:4px;
+}
+.icon + .icon{
+    margin-top:4px;
+}
 /* ================================  HEADER ================================ */
 #header{
+    top:0px;
     background:#C5B935;
     min-width:1200px;
-    width:1200px;
-    margin-top:2px;
-    margin-bottom:0px;
+    height:100px;
+    width:100%;
+    position:fixed;
+    margin-top:0px;
+    margin-bottom:10px;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
-}
-
-/* ================================  MENU ================================ */
-div#menutarolo{
-    background: #63A84E;
-    width:160px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:10px;
-    margin-top:20px;
-}
-ul#menu{
-    margin-left: 0px;
-    list-style: none;
-}
-ul#menu li{
-    background: #2E4A5A;
-    width: 160px;
-    margin: 0 2px 0 0;
-}
-ul#menu li:hover{
-    background: #EAB138;
-}
-ul#menu li a{
-    color: #27B699;
-    padding: 15px;
-    display: block;
-}
-ul#menu li a:hover{
-    
-    color:black;
 }
 
 /* ================================  OLDALSÁV ================================ */
 div#oldalsavbal{  
   margin-left:-250px;
   top:0px;
-  left: 0px;
   width: 250px;
   background: #2E4A5A;
   position: fixed;
@@ -96,24 +90,71 @@ div#oldalsavjobb{
   overflow-x: auto;
   z-index: 1000;  
 }
+
+
+   /*=== Menü ===*/
+   
+   
+div#menutarolo{
+    background: #63A84E; /*menü box szín, ha végleges a beállítás ki lehet szedni */
+    width:250px;
+    height:auto;
+    margin-bottom:auto;
+    margin-top:50px;
+}
+ul#menu{
+    margin-left:0px;
+    list-style: none;
+    border-bottom:solid 1px;
+}
+ul#menu li{
+    text-align:center;
+    border-top:solid 1px;
+    background: #2E4A5A;
+    width: 250px;
+    transition: ease .4s;
+}
+ul#menu li:hover{
+    background: #EAB138;
+    transition: ease .4s;
+}
+ul#menu li a{
+    color: #27B699;
+    padding: 25px;
+    display: block;
+    transition: ease .4s;
+}
+ul#menu li a:hover{ 
+    color:black;
+    transition: ease .4s;   
+}
+
+
 /*=== Login Ablak ===*/
+
+
 div#logintarolo{
-    width:160px;
-    margin-top:100px;
-    margin-left:20px;
+    background:white;
+    width:250px;
+    height:250px;
+    margin-top:50px;
+    margin-left:auto;
     margin-right:auto;
 }
 
 
 /* ================================  FOOTER ================================ */
-
+/*
 #footer{
+    bottom:0;
     background: #E69696;
     height: 35px;
     width:100%;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-}
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;;
+}*/
 
 

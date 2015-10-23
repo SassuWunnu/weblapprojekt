@@ -4,9 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/wamp/www/weblapprojekt/Weblap/Public/css/Main.css</file>
+            <file>file:/C:/wamp/www/weblapprojekt/Weblap/Public/Kepek.php</file>
+            <file>file:/C:/wamp/www/weblapprojekt/Weblap/Protected/header.php</file>
             <file>file:/C:/wamp/www/weblapprojekt/Weblap/Public/js/menu.js</file>
-            <file>file:/C:/wamp/www/weblapprojekt/Weblap/Public/css/Kezdolap.css</file>
             <file>file:/C:/wamp/www/weblapprojekt/Weblap/Public/Kezdolap.php</file>
+            <file>file:/C:/wamp/www/weblapprojekt/Weblap/Protected/oldalsavbal.php</file>
         </group>
     </open-files>
 </project-private>

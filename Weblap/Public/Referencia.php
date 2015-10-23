@@ -9,9 +9,6 @@
     </head>
     <body>
       <div id="wrapper">
-         <div id="menugombkinti">
-            <input type="image" src="designstuff/menugomb.png"></button>
-         </div>
          <?php 
             include("../Protected/header.php");  
             include("../Protected/oldalsavbal.php");  

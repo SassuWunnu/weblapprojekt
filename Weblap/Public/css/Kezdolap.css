@@ -1,12 +1,5 @@
 @import "Main.css";
 
-div#tartalom{
-    background:#6CACDD;
-    width:1200px;
-    margin-left:auto;
-    margin-right:auto;
-    
-}
 ul{
     list-style: none;
 }
