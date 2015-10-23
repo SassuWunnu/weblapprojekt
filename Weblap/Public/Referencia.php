@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Referencia munkák</title>
         <link rel="stylesheet" href="css/Referencia.css"/>
-        <script src="js/jquery-2.1.4.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
     </head>
     <body>
       <div id="wrapper">

@@ -1,3 +1,4 @@
+
 /* ================================  Global ================================ */
 *{ /*Általános mindenre jellemző beállítások*/
     padding: 0;
@@ -72,11 +73,10 @@ ul#menu li a:hover{
 }
 
 /* ================================  OLDALSÁV ================================ */
-div#oldalsavbal{
-  display:none;
-  margin-left: -250px;
+div#oldalsavbal{  
+  margin-left:-250px;
   top:0px;
-  left: 250px;
+  left: 0px;
   width: 250px;
   background: #2E4A5A;
   position: fixed;

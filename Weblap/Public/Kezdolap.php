@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>TDWebshopProjekt15</title>
         <link rel="stylesheet" href="css/Kezdolap.css"/>
-        <script src="js/jquery-2.1.4.js"></script>       
+        <script src="js/jquery-2.1.4.min.js"></script>
     </head>
     <body>    
       <div id="wrapper">
@@ -54,7 +54,7 @@
         ?>
       </div>
     </sript>
-    <script language="javascript" type="text/javascript"  src="js/menu.js"></script>
+    <script src="js/menu.js"></script>
     </body>
 </html>
 

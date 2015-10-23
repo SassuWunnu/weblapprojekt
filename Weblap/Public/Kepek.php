@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Képek</title>
          <link rel="stylesheet" href="css/Kepek.css"/>
-         <script src="js/jquery-2.1.4.js"></script>
+         <script src="js/jquery-2.1.4.min.js"></script>
     </head>
     <body>
       <div id="wrapper">
