@@ -1,3 +1,3 @@
-<div id="oldalsavjobb">
+<div class="oldalsavjobb">
     
 </div>

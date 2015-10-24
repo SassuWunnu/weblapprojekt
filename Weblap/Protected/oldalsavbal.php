@@ -1,10 +1,4 @@
-<div id="oldalsavbal">
-    
-<!-- oldalsáv eltüntető gomb -->
-
-<div id="oldalsavgombbent">
-            <image src="Public/designstuff/info.png">
-</div>
+<div class="oldalsavbal">
 
 <!-- oldalsáv tartalom -->
 

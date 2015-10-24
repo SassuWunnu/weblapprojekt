@@ -2,11 +2,6 @@
             <br>
             <p><h1><center>Üdv a honlapon</center></h1></p>
             <br>
-            <center>
-                <p>Nem tudom, nem érdekel, képtelenség megcsinálni, kell egy 5 perc pihenő zene: </p>      
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vouAtmE13vs" 
-                      frameborder="0" allowfullscreen></iframe>
-            </center>
             <p>Szerver idő:</p>
                 <?php
                     echo date('H:i, jS F Y'); 
