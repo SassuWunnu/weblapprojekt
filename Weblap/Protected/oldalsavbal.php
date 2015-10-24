@@ -3,7 +3,11 @@
 <!-- oldalsáv eltüntető gomb -->
 
 <div id="oldalsavgombbent">
-            <input type="image" src="designstuff/cross.png"></button>
+            <image src="Public/designstuff/info.png">
 </div>
+
+<!-- oldalsáv tartalom -->
+
+<a href="index.php?op=Kapcsolat">Kapcsolatok</a>
 
 </div>

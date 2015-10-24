@@ -28,5 +28,5 @@
                         </ul>
                     </p>
             </center>	
-    </div>
+</div>
 

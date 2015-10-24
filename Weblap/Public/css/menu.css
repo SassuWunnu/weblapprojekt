@@ -1,0 +1,31 @@
+div#menutarolo{
+    background: #63A84E; /*menü box szín, ha végleges a beállítás ki lehet szedni */
+    width:640px;
+    height:auto;
+    margin:40px auto auto auto;
+}
+ul#menu{
+    margin-left:0px;
+    list-style: none;
+}
+ul#menu li{
+    float:left;
+    text-align:center;
+    background: #2E4A5A;
+    width: 160px;
+    transition: ease .4s;
+}
+ul#menu li:hover{
+    background: #EAB138;
+    transition: ease .4s;
+}
+ul#menu li a{
+    color: #27B699;
+    padding: 5px;
+    display: block;
+    transition: ease .4s;
+}
+ul#menu li a:hover{ 
+    color:black;
+    transition: ease .4s;   
+}
