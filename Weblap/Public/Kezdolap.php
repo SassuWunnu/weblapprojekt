@@ -12,8 +12,8 @@
             <center>
                 <p>A különböző blokkok színesítve, hogy látványosabb legyen a módosításokkor fellépő különbségek.</p>
                     <p>
-                        <ul>
-                            <li>világosbarna: wrapper (középső elemeket tartalmazó blokk)</li>
+                        <ul id="szinlista">
+                            <li>világosbarna: wrapper (minden elemet tartalmazó blokk)</li>
                             <li>sárga: header</li>
                             <li>zöld: menü</li>
                             <li>kék: adott lap tartalma</li>
