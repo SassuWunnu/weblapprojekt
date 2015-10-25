@@ -1,9 +1,8 @@
 #footer{
-    top:100%;
-    bottom:0;
+    top:calc(100% - 35px);
+    bottom:0px;
     background: #E69696;
-    height: 35px;
     width:100%;
-    clear:both;
+    height: 35px;
     position: absolute;
 }

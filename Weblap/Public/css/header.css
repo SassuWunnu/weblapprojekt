@@ -12,11 +12,12 @@
     z-index:999;
 }
 .headergombok{
-    position: absolute;
+    position:absolute;
     cursor:pointer;
     padding:10px;
 }
 .icon{
+    
     background:white;
     display:block;
     width: 45px;
@@ -26,10 +27,17 @@
     margin-top:4px;
 }
 #mediamenugomb{
-    margin:auto auto auto 100px;
+    display:none;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
 #oldalsavgombkint{
-    margin:auto auto auto auto;
     float:left;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
-

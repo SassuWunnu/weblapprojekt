@@ -1,12 +1,10 @@
 .oldalsavjobb{
-  display:none; /* Megjelenítése letiltva*/
-  margin-right: -250px;
-  top:0px;
-  right: 250px;
-  width: 250px;
+  float:right;
+  top:61px;
+  width: 15%;
   background: #2E4A5A;
-  position: fixed;
-  height: 100%;
-  overflow-x: auto;
-  z-index: 1000;  
+  position:absolute;
+  height: 200px;
+  right:0;
+  z-index: 995;  
 }

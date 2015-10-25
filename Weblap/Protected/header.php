@@ -12,10 +12,8 @@
     
     <!-- Oldalsávgomb -->
     
-    <div class="headergombok">
-        <div id="oldalsavgombkint">
-            <image src="Public/designstuff/info.png">
-        </div>
+    <div class="headergombok">     
+            <image id="oldalsavgombkint" src="Public/designstuff/Info-32.png">      
     </div>
     
     <!--Menü-->
