@@ -1,10 +1,9 @@
 .oldalsavjobb{
-  float:right;
   top:61px;
-  width: 15%;
+  width: 200px;
   background: #2E4A5A;
   position:absolute;
-  height: 200px;
-  right:0;
+  margin-left:1285px;
+  height: 400px;
   z-index: 995;  
 }

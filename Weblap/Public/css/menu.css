@@ -1,5 +1,5 @@
 div#menutarolo{
-    background: #63A84E; /*menü box szín, ha végleges a beállítás ki lehet szedni */
+    float:right;
     width:640px;
     margin-top:12.5px;
     margin-bottom:auto;
@@ -13,12 +13,11 @@ ul#menu{
 ul#menu li{
     float:left;
     text-align:center;
-    background: #2E4A5A;
     width: 160px;
     transition: ease .4s;
 }
 ul#menu li:hover{
-    background: #EAB138;
+    background: #2E4A5A;;
     transition: ease .4s;
 }
 ul#menu li a{
@@ -29,6 +28,6 @@ ul#menu li a{
     transition: ease .4s;
 }
 ul#menu li a:hover{ 
-    color:black;
+    color:white;
     transition: ease .4s;   
 }

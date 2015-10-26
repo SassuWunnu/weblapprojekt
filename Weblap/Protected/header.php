@@ -10,12 +10,6 @@
         </div>
     </div>
     
-    <!-- Oldalsávgomb -->
-    
-    <div class="headergombok">     
-            <image id="oldalsavgombkint" src="Public/designstuff/Info-32.png">      
-    </div>
-    
     <!--Menü-->
     
     <?php
