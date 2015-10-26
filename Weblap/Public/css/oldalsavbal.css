@@ -3,7 +3,6 @@
   width:85px;
   background: #2E4A5A;
   position: fixed;
-  overflow-y: auto;
   z-index: 1001; 
 }
 #oldalicons{

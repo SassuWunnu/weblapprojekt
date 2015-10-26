@@ -1,7 +1,7 @@
 #footer{
     top:calc(100% - 35px);
     bottom:0px;
-    width: 1400px;
+    width: calc(100% - 85px);
     margin-left:85px;
     background: #E69696;
     height: 35px;

@@ -3,7 +3,7 @@
     top:0px;
     background:#EDF0F2;
     height:60px;
-    width:1400px;
+    width:calc(100% - 85px);
     position:fixed;
     margin-top:0px;
     margin-bottom:10px;

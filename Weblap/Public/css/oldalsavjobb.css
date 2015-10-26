@@ -3,7 +3,7 @@
   width: 200px;
   background: #2E4A5A;
   position:absolute;
-  margin-left:1285px;
+  right:0;
   height: 400px;
   z-index: 995;  
 }
