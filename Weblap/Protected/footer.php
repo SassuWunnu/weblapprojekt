@@ -1,5 +1,5 @@
 
-<div id="footer">
+<div class="footer">
     
     <center>
     <p>2015-EKF Webshop projekt</p>

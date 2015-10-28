@@ -1,9 +1,6 @@
-#footer{
-    top:calc(100% - 35px);
-    bottom:0px;
+.footer{
     width: calc(100% - 85px);
     margin-left:85px;
-    background: #E69696;
+    background: #EDF0F2;
     height: 35px;
-    position:absolute;
 }
