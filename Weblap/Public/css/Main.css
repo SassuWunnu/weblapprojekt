@@ -40,6 +40,7 @@ body{
  /*Mindegyik lap tartalmára jellemző, 
  egyedi beállításokat a különböző oldalak css-ében lehet állítani*/
  .tartalom{
+   display: inline-block;
    margin-top:60px;
    display:block;
    width:calc(100% - 285px);
