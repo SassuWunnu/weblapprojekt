@@ -5,21 +5,8 @@
             <p>Szerver idő:</p>
                 <?php
                     echo date('H:i, jS F Y'); 
-                ?>
-            <p><i>Ha nem látod a szerver időt akkor nem megy a szerver :)</i></p>
-                        
-            <br>
-            <center>
-                <p>Azok a blokkok amik még állítás alatt vannak ki lettek színesítve, hogy látványosabb legyen a módosításokkor fellépő különbségek.</p>
-                    <p>
-                        <ul id="szinlista">
-                            <li>világosbarna: wrapper (minden elemet tartalmazó blokk)</li>
-                            <li>kék: adott lap tartalma</li>
-                            <li>lazac: footer</li>
-                            <li>sötétkék: oldalsó menük</li>
-                        </ul>
-                    </p>
-            </center>	
+                ?>                     
+            <br>        	
             <br>
             <br>
             <p>
