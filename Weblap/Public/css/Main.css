@@ -1,8 +1,8 @@
 @import "Kepek.css";
-@import "Kezdolap.css";
+@import "Index.css";
 @import "Referencia.css";
 @import "Rendeles.css";
-@import "Kapcsolat.css";
+@import "Informaciok.css";
 
 *{ /*Általános mindenre jellemző beállítások*/
     margin:0;
@@ -47,12 +47,7 @@ body,html{
     margin-right:auto;
     z-index:1200;
 }
-.headergombok{
-    float:right;
-    cursor:pointer;
-    padding:10px;
-}
-.icon{  
+.icon{   
     background:black;
     display:block;
     width: 45px;
@@ -62,12 +57,30 @@ body,html{
     margin-top:4px;
 }
 #mediamenugomb{
+    float:right;
+    cursor:pointer;
+    padding:10px;
     display:none;
     margin-top:auto;
     margin-bottom:auto;
     margin-left:auto;
     margin-right:auto;
     
+}
+#kosar{
+    margin-right:5px;
+    padding:2.5px;
+    float:right;
+    display:block;
+    background:#5894B7;
+}
+#logreg{  
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:10px;
+    margin-left:10px;
+    float:right;
+    height: 50px;
 }
 .logo{
     width:225px;
@@ -95,22 +108,23 @@ ul#menu li{
     float:left;
     text-align:center;
     width: 140px;
-    transition: ease .4s;
-}
-ul#menu li:hover{
-    background: #2E4A5A;;
-    transition: ease .4s;
 }
 ul#menu li a{
     padding-top:35px;
-    height: 25px;
-    color: #27B699;
+    height: 20px;
+    color: #AAB8C1;
     display: block;
     transition: ease .4s;
 }
 ul#menu li a:hover{ 
-    color:white;
+    color:#5894B7;
     transition: ease .4s;   
+}
+.jelzo{
+    background: #5894B7;
+    display:block;
+    width: 140px;
+    height:5px;
 }
 
 
@@ -125,7 +139,7 @@ ul#menu li a:hover{
 }
 
 /* ======================= Média beállítások ======================= */
-@media (max-width: 825px){
+@media (max-width: 1025px){
     #menutarolo {
         display: none;
     }

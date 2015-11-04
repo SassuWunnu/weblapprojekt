@@ -1,21 +1,19 @@
-Összes oldal (14):
+Összes oldal (9):
 
 -Kezdõlap
 -Eladó képek
 -Rendelés
 -Referenciamunkák
--Információk:
-	-Kapcsolat
-	-Jogi keret
-	-Szállítás
-	-Paypal
-	-hibabejelentés
-Adatmódosítás
-Rendelések(folyamatban lévõk,teljesültek)
-Belépés/Regisztráció
-Kosárból való rendelés leadása
+-Információk
+
+Mellék oldalak:
+
+-Adatmódosítás
+-Rendelések(folyamatban lévõk,teljesültek)
+-Belépés/Regisztráció
+-Kosárból való rendelés leadása
 
 
 Jelenleg fejlesztésre foglalt oldalak:
 
-Kívés Gábor: Információk és minden bele tartozó
+Kívés Gábor: Információk
