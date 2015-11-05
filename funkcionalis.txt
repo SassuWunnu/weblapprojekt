@@ -14,7 +14,7 @@ Funkciók:
 - E-mail küldés, hiba bejelentés
 - Adatbáziskezelés
 - Adatbázistáblák: felhasználók, képek és egyéb alkotásoknak a képei
-- Weblap statisztika (látogatottság)
+- Felhasználói adatok (módosítása, rendelések megtekintése)
 
 Képernyõk: 
 
@@ -22,23 +22,26 @@ Képernyõk:
 - eladó képek
 - rendelés
 - referenciamunkák
-- kapcsolat
--regisztráció
+- információk
+- regisztráció/belépés
+- felhasználói adatok
+- kosár/rendelés
+
 Megjegyzés: a belépés/regisztráció minden képernyõn elérhetõ, de a regisztráció új képernyõn történik
 
-___________________________________________________________________________________________________________________
-|			Kezdõlap	Eladó képek	Rendelés	Referenciamunkák	Kapcsolat
+_______________________________________________________________________________________________________________________________
+|	Logo			Eladó képek	Rendelés	Referenciamunkák	Információk	Belépés		Kosár
 |
 |
 |
-|Felhasználónév:			Tartalom	Tartalom	Tartalom	Tartalom
-| _____________	
-||_____________|			Tartalom	Tartalom	Tartalom	Tartalom
-|Jelszó:
-|_____________				Tartalom	Tartalom	Tartalom	Tartalom
-||____________|				
-|Belépés/Regisztráció			Tartalom	Tartalom	Tartalom	Tartalom
-|Elfelejtett jelszó
+|					Tartalom	Tartalom	Tartalom	Tartalom
+|
+|					Tartalom	Tartalom	Tartalom	Tartalom
+|
+|					Tartalom	Tartalom	Tartalom	Tartalom
+|			
+|					Tartalom	Tartalom	Tartalom	Tartalom
+|
 |					Tartalom	Tartalom	Tartalom	Tartalom
 |
 |					Tartalom	Tartalom	Tartalom	Tartalom
