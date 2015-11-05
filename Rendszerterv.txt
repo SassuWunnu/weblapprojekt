@@ -6,7 +6,13 @@ kezdõlap - üdvözlés, paypal-donate
 eladó képek - paypalos vásárlás
 rendelés - egy ûrlap, amin leírás alapján lehet rendelni valamilyen munkát. Ebbõl generálódik egy üzenet, amelyet az alkotónak küldünk el.
 referenciamunkák - eddigi munkák adatbázisból
-kapcsolat - ûrlap hibák jelentésére és egyéb üzenetek részére az alkotónak.
+
+Információk 		- hibák jelentésére és egyéb üzenetek részére az alkotónak.
+Információk almenük: 	-Kapcsolat 
+			-jogi keret
+			-szállítás
+			-paypal 
+			-hibajelentés 
 lesz egy e-mail visszaigazoló mechanizmus - ez nem egy külön oldal lesz, hanem egy felugró ablak. 
 	Ha a visszaigazoló e-mailben kapott linkre kattint, az adott felhasználó 'regisztráció' táblában rögzített adatait
 	 a 'felhasználók' táblába másoljuk, a regisztrációs táblából pedig töröljük.
@@ -14,16 +20,11 @@ lesz egy e-mail visszaigazoló mechanizmus - ez nem egy külön oldal lesz, hanem e
 Minden egyes oldalon a fix felépítés:
 -blokkos div megoldással
 -wrapper: Minden egyes lejjebb található elemet tartalmazó blokk azaz az egész oldal
-	-menügomb(szabadon mozgatható semmitõl se függõ kép ami gombnak hiszi magát)
 	-header (másik fájlban található html tartalmat beillesztjük php segítségével)
-	-oldalsáv bal oldali
-		-menü bezáró gomb
-		-bejelentkezés/regisztráció
-		-menü
-	-jobb oldali oldalsáv (e pillanatban le van tiltva 10.22) - opcionálisan a jobb oldalon is lehet a menü vagy egyéb információk
 	-Minden egyes oldalhoz tartozó egyedi blokk amiben az adott oldal tartalma taláható
+	-scriptek	
 	-footer
--scriptek
+	
 
 
 Lesz bejelentkezés: ezt adatbázisban kezeljük
