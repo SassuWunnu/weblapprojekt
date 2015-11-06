@@ -30,6 +30,7 @@
             <!--Menü-->
     
             <?php
+            $i=0;
                 include("Public/includes/menu.php");
             ?>
         </div>

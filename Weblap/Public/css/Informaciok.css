@@ -1,2 +1,16 @@
-
+#informaciok{
+    
+}
+#informmenu{
+    background: #EDF0F2;
+    list-style: none;
+    float:left;
+    display: block;
+}
+#blokkok{
+    background: #5894B7;
+    margin-left:50px;
+    float:left;
+    display: block;
+}
 
