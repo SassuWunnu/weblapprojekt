@@ -2,24 +2,24 @@
 if(isset($_GET["page"]) && $_GET["page"]!="")
             {
                 $valtozo = $_GET["page"];
-                if(file_exists("Public/mellekoldalak/informaciok/".$valtozo.".php"))
+                if(file_exists("Public/includes/informaciok/".$valtozo.".php"))
                 {
                     
-                    include_once ("Public/mellekoldalak/informaciok/".$valtozo.".php");
+                    include_once ("Public/includes/informaciok/".$valtozo.".php");
                 }
                 else
                 {
-                    if(file_exists("Public/includes/texts/".$valtozo.".txt"))
+                    if(file_exists("Public/includes/informaciok/texts/".$valtozo.".txt"))
                     {
-                        include_once ("Public/includes/texts/".$valtozo.".txt");
+                        include_once ("Public/includes/informaciok/texts/".$valtozo.".txt");
                     }
                     else
                     {
-                        include_once("Public/mellekoldalak/informaciok/kapcsolat.php");
+                        include_once("Public/includes/Error.php");
                     }
                 }
             }
             else
               {
-                include_once("Public/mellekoldalak/informaciok/kapcsolat.php");
+                include_once("Public/includes/informaciok/kapcsolat.php");
               }

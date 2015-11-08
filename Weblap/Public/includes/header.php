@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require_once("Public/config/config.php");?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -30,7 +31,6 @@
             <!--Menü-->
     
             <?php
-            $i=0;
                 include("Public/includes/menu.php");
             ?>
         </div>

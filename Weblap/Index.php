@@ -5,9 +5,25 @@ include("Public/includes/header.php");
 ?>
 <div class="tartalom">
       <div id="Kezdolap">
+          
             <br>
+            
             <p><h1><center>Üdv a honlapon</center></h1></p>
+      
             <br>
+            
+            <center>
+            <p>Támogasd Gábort Gomb</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="QTKNBSHU2W7M4">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            </center>
+            
+            <br>
+            
             <p>Szerver idő:</p>
                 <?php
                     echo date('H:i, jS F Y'); 
@@ -15,6 +31,7 @@ include("Public/includes/header.php");
             <br>        	
             <br>
             <br>
+            
             <p>
                 Lorem ipsum dolor sit amet, aperiam prodesset accommodare et per. No quo primis legendos iracundia, an per accusamus incorrupte. Usu in appareat singulis accusata. Nobis euripidis in per, pri cu suas abhorreant, et fugit veniam voluptatum nec. Aeque persecuti id duo.
 
