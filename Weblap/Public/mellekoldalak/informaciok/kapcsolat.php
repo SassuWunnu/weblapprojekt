@@ -1,3 +1,4 @@
+<div id="kapcsolat">
 <form action="" method="POST">
     
     <label>E-mail cím</lable>
@@ -11,3 +12,4 @@
     <button type="reset">Reset</button>
     
 </form>
+</div>
