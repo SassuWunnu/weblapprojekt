@@ -20,4 +20,3 @@ include("Public/includes/header.php");
 
 <?php
  include ("Public/includes/footer.php");
-?>

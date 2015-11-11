@@ -1,1 +1,0 @@
-<p>AZ üzenet elküldve</p>

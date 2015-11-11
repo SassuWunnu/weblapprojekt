@@ -3,26 +3,29 @@ $oldalemail="valami@gmail.com";
 $nev=trim($_POST["nev"]);
 $email=trim($_POST["email"]);
 $targy=trim($_POST["targy"]);
-$uzenet=trim($_POST["targy"]);
+$uzenet=trim($_POST["uzenet"]);
 
+$escape=false;
 //üres mező szűrő
-if($nev==="" || $email=== "" || $targy==="" || $uzenet===""){
-    header("Location: Informaciok.php?page=mailerror");
-    exit;
+if($nev==="" || $email=== "" || $targy==="" || $uzenet==="" && !$escape){
+    echo "Nem töltötte ki az összes mezőt!";
+    $escape=true;
+    
 }
 
 //injection hack védelem
-foreach($_POST as $value){
-    if(stripos($value,'Content-Type:') != FALSE)
+    foreach($_POST as $value){
+    if(!$escape && stripos($value,'Content-Type:') != FALSE)
     {
-        header("Location: Informaciok.php?page=mailerror");
-        exit;
+        echo "Kártékony program észlelve!";
+        $escape=true;
+        
     }
 }
 //automatikus kitoltő robot védelem
-if ($_POST["robotvedelem1"]!=""){
-    header("Location: Informaciok.php?page=mailerror");
-    exit;
+if (!$escape && $_POST["robotvedelem1"]!=""){
+    echo "Kártékony program észlelve!";
+    $escape=true;
 }
 
 require_once("Protected/Model/PHPMailer5.2.14/class.phpmailer.php");
@@ -35,12 +38,12 @@ $mail->addAddress($oldalemail, "Webshop");
 $mail->Subject = $targy;
 $mail->msgHTML($uzenet);
 
-
-if (!$mail->send()) {
-    header("Location: Informaciok.php?page=mailerror");
-    exit;
+if(!$escape){
+    if (!$mail->send()) {
+        echo "Hiba az üzenet küldésekor:" . $mail->ErrorInfo;  
+    }
+    else
+    {
+        echo "Üzenet elküldve";
+    }
 }
-
-header("Location: Informaciok.php?page=elkuldve");
-exit;
-
