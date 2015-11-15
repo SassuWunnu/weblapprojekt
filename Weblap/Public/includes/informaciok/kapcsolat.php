@@ -1,5 +1,29 @@
 <div id="kapcsolat">
     
+    <div id="uzenobox">
+        <?php
+            if($_SERVER["REQUEST_METHOD"]==="POST"){
+                require_once("Protected/Controller/mailer.php");
+                $uzenet=mailer();
+                    if($uzenet[0]=="0")
+                    {
+                        ?>
+                            <script>document.getElementById("uzenobox").style.background="red";</script>
+                        <?php
+                    }
+                    else{
+                        ?>
+                            <script>document.getElementById("uzenobox").style.background="green";</script>
+                        <?php
+                    }
+                ?>
+                <script>document.getElementById("uzenobox").style.display="block";</script>
+                <?php
+                echo $uzenet[1];
+                    }
+                ?>      
+    </div>
+    
      <form id="formbox" action="" method="POST">
     
         <label for="k_email">E-mail cím:</label><br>
@@ -17,8 +41,8 @@
         <input id="k_kuldesgomb" type="submit" value="Küldés"/>
         <input id="k_resetgomb" type="reset" value="Reset"/>
         
-        <label style="display:none">Hagyd üresen ezt a mezőt</label><br>
-        <input style="display:none;" type="text" name="robotvedelem1"/><br>
+        <label style="display:none">Hagyd üresen ezt a mezőt</label>
+        <input style="display:none;" type="text" name="robotvedelem1"/>
     
     </form>
     
@@ -28,13 +52,8 @@
             <li>- Kérem töltse ki az összes sort!</li>
             <li>- Valós e-mail cím esetén fog csak választ kapni</li>
             <li>- Hiba vagy nem megfelelő kitöltés esetén minden eddig beírt szöveg eltűnik</li>
+            <li>- Ne itt adja le a rendelését, mert arra nem fog válasz érkezni.</li>
         </ul>
     </div>
-    <div id="uzenobox">
-        <?php
-            if($_SERVER["REQUEST_METHOD"]==="POST"){
-                include("Protected/Controller/mailer.php");
-            }
-        ?>
-    </div>
+    
 </div>

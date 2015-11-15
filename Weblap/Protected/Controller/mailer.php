@@ -1,49 +1,58 @@
 <?php
-$oldalemail="valami@gmail.com";
+function mailer(){  
+    
+$oldalemail="kivesgabor1991@gmail.com";
+
 $nev=trim($_POST["nev"]);
 $email=trim($_POST["email"]);
 $targy=trim($_POST["targy"]);
 $uzenet=trim($_POST["uzenet"]);
 
-$escape=false;
+$returnszoveg=array("0","Ismeretlen hiba");
+
 //üres mező szűrő
-if($nev==="" || $email=== "" || $targy==="" || $uzenet==="" && !$escape){
-    echo "Nem töltötte ki az összes mezőt!";
-    $escape=true;
-    
+if($nev==="" || $email=== "" || $targy==="" || $uzenet===""){
+    $returnszoveg[0]="0";
+    $returnszoveg[1]="Nem töltötte ki az összes mezőt!";   
+    return $returnszoveg;
 }
 
 //injection hack védelem
     foreach($_POST as $value){
-    if(!$escape && stripos($value,'Content-Type:') != FALSE)
+    if(stripos($value,'Content-Type:') != FALSE)
     {
-        echo "Kártékony program észlelve!";
-        $escape=true;
-        
+        $returnszoveg[0]="0";
+        $returnszoveg[1]="Kártékony kód észlelve!";  
+        return $returnszoveg;
     }
 }
 //automatikus kitoltő robot védelem
-if (!$escape && $_POST["robotvedelem1"]!=""){
-    echo "Kártékony program észlelve!";
-    $escape=true;
+if ($_POST["robotvedelem1"]!=""){
+    $returnszoveg[0]="0";
+    $returnszoveg[1]="Kártékony kód észlelve!";
+    return $returnszoveg;
 }
 
 require_once("Protected/Model/PHPMailer5.2.14/class.phpmailer.php");
 $mail=new PHPMailer();
+$mail->CharSet = "UTF-8";
 
-$email_torzs="Feladó Neve:" . $nev . "\n" . "E-mail címe:" . $email . "\n" . "Üzenet:" . "\n" . $uzenet;
+$email_torzs="Feladó Neve:" . $nev . "\r\n" . "E-mail címe:" . $email . "\r\n" . "Üzenet:" . "\r\n" . $uzenet;
 
 $mail->setFrom($email, $nev);
 $mail->addAddress($oldalemail, "Webshop");
 $mail->Subject = $targy;
-$mail->msgHTML($uzenet);
+$mail->msgHTML($email_torzs);
 
-if(!$escape){
     if (!$mail->send()) {
-        echo "Hiba az üzenet küldésekor:" . $mail->ErrorInfo;  
+        $returnszoveg[0]="0";
+        $returnszoveg[1]="Hiba az üzenet küldésekor:" . $mail->ErrorInfo; 
+        return $returnszoveg;
     }
     else
     {
-        echo "Üzenet elküldve";
+        $returnszoveg[0]="1";
+        $returnszoveg[1]="Üzenet elküldve";
+        return $returnszoveg;
     }
 }

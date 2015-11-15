@@ -88,9 +88,15 @@
     
 }
 #uzenobox{
-  height: 50px;
-  width:200px;
+  position:absolute;
+  margin-top:-45px;
+  background:#AAB8C1;
+  border:1px solid black;
+  height: 25px;
+  text-align:center;
+  width:500px;
   float:left;
+  display:none;
 }
 
 

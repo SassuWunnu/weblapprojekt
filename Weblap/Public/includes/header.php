@@ -14,7 +14,7 @@
     
             <!-- Kezdőlapra mutató logó -->
     
-            <a href="index.php" class="logo"></a>
+            <a href="Index.php" class="logo"></a>
             
             <!--menügomb összenyomott állapothoz-->
                 <div id="mediamenugomb">

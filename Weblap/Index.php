@@ -1,7 +1,7 @@
 <?php 
-$oldalnev="Kezdőlap";
-$section="Kezdolap";
-include("Public/includes/header.php"); 
+$oldalnev="Kezdőlap"; //Ez kerül a böngészőfülre
+$section="Kezdolap"; //változó arra, hogy éppen melyik oldalon vagyunk, jelenleg a menü aláhúzásához van használva
+include("Public/includes/header.php"); //Header teljes tartalma ide kerül bemásolásra
 ?>
 <div class="tartalom">
       <div id="Kezdolap">
@@ -150,5 +150,4 @@ Mel accumsan eloquentiam complectitur at, at sea tation civibus argumentum,
 </div>
 
 <?php
- include ("Public/includes/footer.php");
-?>
+ include ("Public/includes/footer.php"); // footer teljes tartamának bemásolása
