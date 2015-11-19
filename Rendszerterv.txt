@@ -16,6 +16,7 @@ Információk almenük: 	-Kapcsolat
 lesz egy e-mail visszaigazoló mechanizmus - ez nem egy külön oldal lesz, hanem egy felugró ablak. 
 	Ha a visszaigazoló e-mailben kapott linkre kattint, az adott felhasználó 'regisztráció' táblában rögzített adatait
 	 a 'felhasználók' táblába másoljuk, a regisztrációs táblából pedig töröljük.
+kosár: ez nem menüpont, hanem egy ikon amire az egeret ráhúzva megjelennek a kosárba tett termékek. Ezek addig sehol nem kerülnek rögzítésre, amíg a felhasználó el nem küldi a rendelést. Utána a rendelés táblában rögzülnek.
 
 Minden egyes oldalon a fix felépítés:
 -blokkos div megoldással
