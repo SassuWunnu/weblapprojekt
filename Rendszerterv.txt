@@ -31,7 +31,7 @@ Lesz bejelentkezés: ezt adatbázisban kezeljük
 felhasználónév
 jelszó
 
-Bejelentkezés után indul egy Session ami eltünteti a login ablakot és helyette egy információs dobozt ad ami tartalmazza a felhasználó adatait, és egyébb funkciókat
+Bejelentkezés után indul egy Session ami eltünteti a login ablakot és helyette egy információs dobozt ad ami tartalmazza a felhasználó adatait, és egyéb funkciókat
 amiket megtehet a jogosultságával valamint a kijelentkezés gombot is odageneráljuk.
 
 Lesz regisztráció: ezt is adatbázisban kezeljük, de e-mail címet is meg kell adni a felhasználónéven túl. Ez késõbb nem látható.
@@ -39,5 +39,6 @@ Lesz regisztráció: ezt is adatbázisban kezeljük, de e-mail címet is meg kell adn
 Az adatbázis táblái:
 - felhasználók - itt lesznek azok a felhasználók, akik visszaigazolták az e-mailt. Azért van különválasztva a regisztráltaktól, hogy ne lehessen egy szkripttel túlterhelni.
 - regisztráció - Itt azok vannak, akik nem igazolták vissza az e-mailt.
-- jelszavak - ez azért kell, hogy külön eldughassuk valahová, vagyis biztonsági szempontokból. Ne listázzuk ki a jelszavakat ha lekérdezünk a felhasználó
+- jelszavak - ez azért kell, hogy külön eldughassuk valahová, vagyis biztonsági szempontokból. Ne listázzuk ki a jelszavakat ha lekérdezünk.
 - eladó képek
+- rendelések
