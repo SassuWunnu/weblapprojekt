@@ -116,6 +116,16 @@ ul#menu li a{
     display: block;
     transition: ease .4s;
 }
+ul#menu li div{
+    background: #EDF0F2;
+    display:none;
+}
+ul#menu li div a{
+
+}
+ul#menu li:hover div{
+    display:block;
+}
 ul#menu li a:hover{ 
     color:#5894B7;
     transition: ease .4s;   
@@ -130,7 +140,7 @@ ul#menu li a:hover{
 
 /* ======================= FOOTER =======================*/
 
-.footer{
+#footer{
     position:absolute;
     bottom:0;
     width: 100%;

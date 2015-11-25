@@ -33,7 +33,7 @@ if ($_POST["robotvedelem1"]!=""){
     return $returnszoveg;
 }
 
-require_once("Protected/Model/PHPMailer5.2.14/class.phpmailer.php");
+require_once("Protected/Model/3rdparty/class.phpmailer.php");
 $mail=new PHPMailer();
 $mail->CharSet = "UTF-8";
 

@@ -1,23 +1,4 @@
-//==================== Informaciok oldal ====================
-#informaciok{
-    
-}
-#informmenu{
-    background: #EDF0F2;
-    list-style: none;
-    float:left;
-    display: block;
-}
-#blokkok{
-    margin-left:50px;
-    float:left;
-    display: block;
-}
-.hatter{
-    background: whitesmoke;
-}
-
-//==================== Kapcsolat aloldal ====================
+//==================== Kapcsolat aloldal ====================//
 #kapcsolat{
     
 }
@@ -99,5 +80,11 @@
   display:none;
 }
 
+//==================== Szöveges részek ====================//
 
-
+#wtfmezomertenelkulnemmegyalenti{
+   
+}
+.hatter{
+    background: whitesmoke;
+}
