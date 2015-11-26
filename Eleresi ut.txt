@@ -2,7 +2,7 @@ Wamp szerver www mappájába téve a git mappát (weblapprojekt)
 az oldal elérési útja a böngészõben:
 
 AZ ÚJ LINKELÉS CSAK AKKOR MÛKÖDIK HA BEVAN KAPCSOLVA A REWRITEMODUL A WAMPSZERVEREN
-bekapcsolása: wamp/bin/apache/apache2.4.9/bin/httpd.conf
+bekapcsolása: wamp/bin/apache/apache2.4.9/conf/httpd.conf
 
 #LoadModule rewrite_module modules/mod_rewrite.so	E sor elõl ki kell venni a # jelet (komment jel).
 
