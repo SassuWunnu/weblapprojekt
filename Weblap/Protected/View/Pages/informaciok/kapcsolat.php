@@ -1,27 +1,9 @@
-<div id="kapcsolat">
+<div class="kapcsolat">
 
     <div id="uzenobox">
        <?php
-            if($_SERVER["REQUEST_METHOD"]==="POST"){
-                require_once("Protected/Controller/mailer_controller.php");
-                $uzenet=mailer();
-                    if($uzenet[0]=="0")
-                    {
-                        ?>
-                            <script>document.getElementById("uzenobox").style.background="red";</script>
-                        <?php
-                    }
-                    else{
-                        ?>
-                            <script>document.getElementById("uzenobox").style.background="green";</script>
-                        <?php
-                    }
-                ?>
-                <script>document.getElementById("uzenobox").style.display="block";</script>
-                <?php
-                echo $uzenet[1];
-                    }
-                ?>  
+            include 'Protected/Controller/mailer.php';
+        ?>  
     </div>
 
     <form id="formbox" action="" method="POST">
@@ -38,8 +20,8 @@
         <label for="k_uzenet">Üzenet:</label><br>
         <textarea name="uzenet" id="k_uzenet" rows="5"></textarea><br>
 
-        <input id="k_kuldesgomb" type="submit" value="Küldés"/>
-        <input id="k_resetgomb" type="reset" value="Reset"/>
+        <button id="k_kuldesgomb" type="submit" name="kuldes">Küldés</button>
+        <button id="k_resetgomb" type="reset" name="Reset">Reset</button>
 
         <label style="display:none">Hagyd üresen ezt a mezőt</label>
         <input style="display:none;" type="text" name="robotvedelem1"/>

@@ -1,4 +1,26 @@
 <?php
+// Üzenet küldés gomb lenyomása után induló kód //
+ if(array_key_exists('kuldes', $_POST))
+                {
+                $uzenet=mailer();
+                    if($uzenet[0]=="0")
+                    {
+                        ?>
+                            <script>document.getElementById("uzenobox").style.background="red";</script>
+                        <?php
+                    }
+                    else{
+                        ?>
+                            <script>document.getElementById("uzenobox").style.background="green";</script>
+                        <?php
+                    }
+                ?>
+                <script>document.getElementById("uzenobox").style.display="block";</script>
+                <?php
+                    echo $uzenet[1];
+                 }
+                 
+// Levél küldésével illetve hiba és siker üzenetek visszaküldésével foglalkozó funkció                
 function mailer(){  
     
 $oldalemail="kivesgabor1991@gmail.com";

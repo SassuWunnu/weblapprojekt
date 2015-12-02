@@ -1,10 +1,5 @@
-@import "Kepek.css";
-@import "Kezdolap.css";
-@import "Referencia.css";
-@import "Rendeles.css";
-@import "Informaciok.css";
-
-*{ /*Általános mindenre jellemző beállítások*/
+/*====================== GLOBÁLIS BEÁLLÍTÁSOK ================================*/
+*{ 
     margin:0;
     padding:0; 
     font-family: sans-serif;
@@ -16,15 +11,13 @@ body,html{
     height:100%;
 }
 
-#wrapper{ /*minden divet (header,tartalom,footer) tartalmazó div*/
+#wrapper{
     min-height:100%;
     position:relative;
     min-width:100%;
     background: graytext;
     
 }
- /*Mindegyik lap tartalmára jellemző, 
- egyedi beállításokat a különböző oldalak css-ében lehet állítani*/
  .tartalom{
    margin-top:60px;
    padding-left:100px;
@@ -35,7 +28,7 @@ body,html{
    width:calc(100% - 200px);
 }
 
-/* ======================= HEADER =======================*/
+/* ============================ HEADER =======================================*/
 
 #header{
     top:0px;
@@ -99,7 +92,7 @@ body,html{
     background: url(../designstuff/logoOn.jpg) no-repeat;
 }
 
-/*========= MENÜ =========*/
+/*----------- MENÜ -----------*/
 
 div#menutarolo{
     height:60px;
@@ -143,7 +136,7 @@ ul#menu li a:hover{
 }
 
 
-/* ======================= FOOTER =======================*/
+/* =============================== FOOTER ====================================*/
 
 #footer{
     position:absolute;
@@ -153,7 +146,130 @@ ul#menu li a:hover{
     height: 100px;
 }
 
-/* ======================= Média beállítások ======================= */
+/* =============================== KEZDŐLAP ==================================*/
+#Kezdolap{
+    
+}
+#tesztreszleg{
+    height: 2000px;
+    padding:50px;
+    border:solid 2px black;
+}
+#tablaletrehozo{
+    float:left;
+    width: 300px;
+    height: 100px;
+    border: solid 1px buttonface;
+    padding:10px;
+}
+#tablaletrehozo p{
+    padding-bottom: 5px;
+}
+.eredmenyablak{
+    padding:10px;
+    width: 400px;
+    height: 100px;
+    float:left;
+}
+.eredmenyablak  p{
+    background: yellow;
+}
+/* ============================ LOGIN ========================================*/
+#loginform{
+}
+
+/* ============================ KAPCSOLAT ====================================*/
+#kapcsolat{
+    
+}
+#formbox{
+   padding-top:10px;
+   padding-left:10px;
+   padding-right: 10px;
+   float:left;
+   display:block;
+   border:2px solid white;
+   background:#AAB8C1;
+   width: 350px;
+   height: 385px;
+}
+#formbox label{
+    font-weight: bold;
+    margin-left:25px;
+    width:300px;
+}
+#formbox input[type="text"]{
+    margin-left:25px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:20px;
+    width: 300px;
+}
+#k_uzenet{
+    margin-top:5px;
+    margin-left:25px;
+    font-size:20px;
+    width: 300px;
+    height:150px;
+}
+#k_kuldesgomb,#k_resetgomb{
+    margin-top:8px;
+    font-size:20px;
+    width:150px;
+    height:30px;
+}
+#k_kuldesgomb{
+    margin-left:25px;
+}
+#infocim{
+    padding:2px;
+    float:left;
+}
+#inform p{
+    padding-right: 5px;
+    float:right;
+    font-size:25px;
+}
+#inform ul{
+    margin-top: 30px;
+    border-top:1px solid black;
+    list-style: none;
+}
+#inform ul li{
+    padding:4px;
+}
+#inform{
+    margin-left: 50px;
+    background: white;
+    display: block;
+    float:left;
+    width: 250px;
+    height: 395px;
+    border: 2px solid black;
+    
+}
+.uzenobox{
+  position:absolute;
+  margin-top:-45px;
+  background:#AAB8C1;
+  border:1px solid black;
+  height: 25px;
+  text-align:center;
+  width:500px;
+  float:left;
+  display:none;
+}
+
+/* -------------- Szöveges részek -------------- */
+
+#vmi{
+   
+}
+.hatter{
+    background: whitesmoke;
+}
+
+/* =============================== MÉDIA BEÁLLÍTÁSOK ======================== */
 @media (max-width: 1025px){
     #menutarolo {
         display: none;

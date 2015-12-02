@@ -8,7 +8,7 @@ class dbkezelo {
     }
 
     function kapcsolatzar($kapcsolat) {
-        $this->$kapcsolat = null;
+        $kapcsolat = null;
     }
 
     function letrehozo() {
@@ -57,7 +57,7 @@ class dbkezelo {
         $kapcsolat = $this->kapcsolatnyit();
         $letrehozas = $kapcsolat->prepare($tablaksqlstring);
         $siker=$letrehozas->execute();
-        //$this->kapcsolatzar($kapcsolat);
+        $this->kapcsolatzar($kapcsolat);
         return $siker;
     }
 
@@ -73,6 +73,38 @@ class dblekerdezes extends dbkezelo {
         $this->kapcsolatzar($kapcsolat);
         return $felhasznalok;
     }
+    function Felhasznaloletezik($felhnev){
+        $kapcsolat=$this->kapcsolatnyit();
+        $lekeredezes=$kapcsolat->prepare("Select felhasznalonev from Felhasznalok where felhasznalonev=:nev");
+        $lekeredezes->bindParam(':nev', $felhnev);
+        $lekeredezes->execute();
+        $lekerdezett=$lekeredezes->fetch();
+        if($felhnev==$lekerdezett){
+            $eredmeny=true;
+        }else{
+            $eredmeny=false;
+        }
+        $this->kapcsolatzar($kapcsolat);
+        return $eredmeny;
+    }
+    function idvissza($felhnev){
+        $kapcsolat=$this->kapcsolatnyit();
+        $lekeredezes=$kapcsolat->prepare("Select id from Felhasznalok where felhasznalonev=:nev");
+        $lekeredezes->bindParam(':nev', $felhnev);
+        $lekeredezes->execute();
+        $azid=$lekeredezes->fetch();
+        $this->kapcsolatzar($kapcsolat);
+        return $azid;
+    }
+    function jelszokereso($id){
+        $kapcsolat=$this->kapcsolatnyit();
+        $lekeredezes=$kapcsolat->prepare("Select jelszo from Jelszavak where felhasznalok_id=:nev");
+        $lekeredezes->bindParam(':nev', $id);
+        $lekeredezes->execute();
+        $jelszo=$lekeredezes->fetch();
+        $this->kapcsolatzar($kapcsolat);
+        return $jelszo;
+    }
 
 }
 
@@ -85,6 +117,17 @@ class dbmodositas extends dbkezelo {
         $sikeres = $lekerdezes->execute();
         $this->kapcsolatzar($kapcsolat);
         return $sikeres;
+    }
+    function MindTorol(){
+        $kapcsolat = $this->kapcsolatnyit();
+        $lekerdezes = $kapcsolat->prepare("Delete from Felhasznalok");
+        $sikeres = $lekerdezes->execute();
+        $this->kapcsolatzar($kapcsolat);
+        return $sikeres;
+    }
+    function Ujfelhasznalo($adatok){
+        $kapcsolat = $this->kapcsolatnyit();
+        $lekerdezes = $kapcsolat->prepare("");
     }
 
 }
