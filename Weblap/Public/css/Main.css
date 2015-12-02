@@ -1,5 +1,5 @@
 @import "Kepek.css";
-@import "Index.css";
+@import "Kezdolap.css";
 @import "Referencia.css";
 @import "Rendeles.css";
 @import "Informaciok.css";
@@ -75,12 +75,17 @@ body,html{
     background:#5894B7;
 }
 #logreg{  
-    margin-top:5px;
+    margin-top:25px;
     margin-bottom:5px;
     margin-right:10px;
     margin-left:10px;
     float:right;
-    height: 50px;
+}
+#logreg a:link{
+   color:#AAB8C1;
+}
+#logreg a:visited{
+    color:#AAB8C1;
 }
 .logo{
     width:225px;

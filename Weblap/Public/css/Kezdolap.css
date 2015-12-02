@@ -1,0 +1,28 @@
+#Kezdolap{
+    
+}
+#tesztreszleg{
+    height: 2000px;
+    padding:50px;
+    border:solid 2px black;
+}
+#tablaletrehozo{
+    float:left;
+    width: 300px;
+    height: 100px;
+    border: solid 1px buttonface;
+    padding:10px;
+}
+#tablaletrehozo p{
+    padding-bottom: 5px;
+}
+.eredmenyablak{
+    padding:10px;
+    width: 400px;
+    height: 100px;
+    float:left;
+    border:solid 1px bisque;
+}
+.eredmenyablak  p{
+    background: yellow;
+}

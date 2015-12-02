@@ -9,7 +9,11 @@
 
 <a id="kosar" href=""><image src="Public/designstuff/Shopping Cart-50.png"</image></a>
 
-<button id="logreg" type="button">Belépés/Regisztráció</button>
+<div id="logreg">
+    <a href="login">Login</a>
+    /
+    <a href="reg">Regisztráció</a>
+</div>
 
 
 <!--Menü-->

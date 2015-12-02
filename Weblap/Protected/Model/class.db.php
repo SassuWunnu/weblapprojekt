@@ -34,7 +34,7 @@ class dbkezelo {
                     constraint fk_Rendelesek_felhasznalok_id foreign key (felhasznalok_id) References Felhasznalok(id) );
                  create table if not exists Jelszavak(
                     id int primary key auto_increment not null,
-                    jelszo long varbinary,
+                    jelszo varchar(250),
                     felhasznalok_id int,
                     constraint fk_Jelszavak_felhasznalok_id foreign key (felhasznalok_id) References Felhasznalok(id));
                 Create table IF NOT EXISTS Regisztracio(
