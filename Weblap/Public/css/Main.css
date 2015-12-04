@@ -155,27 +155,17 @@ ul#menu li a:hover{
     padding:50px;
     border:solid 2px black;
 }
-#tablaletrehozo{
-    float:left;
-    width: 300px;
-    height: 100px;
-    border: solid 1px buttonface;
+.boxokl{
+  padding:10px;
+  float:left;
+}
+.boxokr{
     padding:10px;
-}
-#tablaletrehozo p{
-    padding-bottom: 5px;
-}
-.eredmenyablak{
-    padding:10px;
-    width: 400px;
-    height: 100px;
-    float:left;
-}
-.eredmenyablak  p{
-    background: yellow;
+    float:right;
 }
 /* ============================ LOGIN ========================================*/
 #loginform{
+    
 }
 
 /* ============================ KAPCSOLAT ====================================*/
@@ -248,7 +238,8 @@ ul#menu li a:hover{
     border: 2px solid black;
     
 }
-.uzenobox{
+/* =============================== Üzenő boxok ============================== */
+#uzenobox{
   position:absolute;
   margin-top:-45px;
   background:#AAB8C1;
@@ -259,12 +250,14 @@ ul#menu li a:hover{
   float:left;
   display:none;
 }
+.uzenoboxultimate{
+    background: aqua;
+    position:relative;
+    margin-top:-45px;
+    text-align: center;
+}
 
 /* -------------- Szöveges részek -------------- */
-
-#vmi{
-   
-}
 .hatter{
     background: whitesmoke;
 }

@@ -1,4 +1,11 @@
 <?php
+
+
+// EZT ÚJRA KÉNE ÍRNI MERT CSÚNYA A KÓD
+
+
+
+
 // Üzenet küldés gomb lenyomása után induló kód //
  if(array_key_exists('kuldes', $_POST))
                 {

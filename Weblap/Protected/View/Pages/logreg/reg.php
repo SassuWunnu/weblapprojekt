@@ -1,4 +1,4 @@
-<div class="uzenobox">
+<div class="uzenoboxultimate">
     <?php include 'Protected/Controller/reg.php'; ?>
 </div>
 <div id="reg">

@@ -65,6 +65,14 @@ class dbkezelo {
 
 class dblekerdezes extends dbkezelo {
 
+    function Felhasznalok(){
+        $kapcsolat = $this->kapcsolatnyit();
+        $lekerdezes = $kapcsolat->prepare("SELECT felhasznalonev,nev,cim,email,telefonszam FROM Felhasznalok order by id");
+        $lekerdezes->execute();
+        $felhasznalok = $lekerdezes->fetchAll();
+        $this->kapcsolatzar($kapcsolat);
+        return $felhasznalok;
+    }
     function MindLekerdez() {
         $kapcsolat = $this->kapcsolatnyit();
         $lekerdezes = $kapcsolat->prepare("SELECT * FROM Felhasznalok order by id");
@@ -78,7 +86,7 @@ class dblekerdezes extends dbkezelo {
         $lekeredezes=$kapcsolat->prepare("Select felhasznalonev from Felhasznalok where felhasznalonev=:nev");
         $lekeredezes->bindParam(':nev', $felhnev);
         $lekeredezes->execute();
-        $lekerdezett=$lekeredezes->fetch();
+        $lekerdezett=$lekeredezes->fetch()[0];
         if($felhnev==$lekerdezett){
             $eredmeny=true;
         }else{
@@ -92,16 +100,16 @@ class dblekerdezes extends dbkezelo {
         $lekeredezes=$kapcsolat->prepare("Select id from Felhasznalok where felhasznalonev=:nev");
         $lekeredezes->bindParam(':nev', $felhnev);
         $lekeredezes->execute();
-        $azid=$lekeredezes->fetch();
+        $azid= $lekeredezes->fetch()[0];    
         $this->kapcsolatzar($kapcsolat);
         return $azid;
     }
     function jelszokereso($id){
         $kapcsolat=$this->kapcsolatnyit();
-        $lekeredezes=$kapcsolat->prepare("Select jelszo from Jelszavak where felhasznalok_id=:nev");
-        $lekeredezes->bindParam(':nev', $id);
+        $lekeredezes=$kapcsolat->prepare("Select jelszo from Jelszavak where felhasznalok_id=:id");
+        $lekeredezes->bindParam(':id', $id);
         $lekeredezes->execute();
-        $jelszo=$lekeredezes->fetch();
+        $jelszo=$lekeredezes->fetch()[0];
         $this->kapcsolatzar($kapcsolat);
         return $jelszo;
     }

@@ -10,6 +10,10 @@ if (array_key_exists('page', $_GET)) {
             break;
         case "referencia": echo "Referencia munkák";
             break;
+        case "login": echo "Login";
+            break;
+        case "reg": echo "Regisztráció";
+            break;
         default: echo "Információk";
             break;
     
