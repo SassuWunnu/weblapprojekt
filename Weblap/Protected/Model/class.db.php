@@ -48,7 +48,7 @@ class dbkezelo {
                     regkod numeric);
                 create table if not exists Munkak(
                     id int primary key auto_increment not null,
-                    kep blob not null,
+                    kep varchar(250) not null,
                     elado boolean not null,
                     leiras varchar(255),
                     keszult date,
@@ -59,6 +59,13 @@ class dbkezelo {
         $siker=$letrehozas->execute();
         $this->kapcsolatzar($kapcsolat);
         return $siker;
+    }
+    function ParameterBerako($parameterek){
+        $sqlParameterek = [];
+        foreach($parameterek as $kulcs => $ertek){
+            $sqlParameterek[':'.$kulcs] = $ertek;
+        }
+        return $sqlParameterek;
     }
 
 }
@@ -113,6 +120,22 @@ class dblekerdezes extends dbkezelo {
         $this->kapcsolatzar($kapcsolat);
         return $jelszo;
     }
+    function Eladandomunkak(){
+        $kapcsolat=$this->kapcsolatnyit();
+        $lekeredezes=$kapcsolat->prepare("Select kep,leiras,ar,keszult,meret from Munkak where elado=1");
+        $lekeredezes->execute();
+        $adatok=$lekeredezes->fetchALL();
+        $this->kapcsolatzar($kapcsolat);
+        return $adatok;
+    }
+    function Referenciamunkak(){
+        $kapcsolat=$this->kapcsolatnyit();
+        $lekeredezes=$kapcsolat->prepare("Select kep,leiras,keszult,meret from Munkak where elado=0");
+        $lekeredezes->execute();
+        $adatok=$lekeredezes->fetchALL();
+        $this->kapcsolatzar($kapcsolat);
+        return $adatok;
+    }
 
 }
 
@@ -133,9 +156,14 @@ class dbmodositas extends dbkezelo {
         $this->kapcsolatzar($kapcsolat);
         return $sikeres;
     }
-    function Ujfelhasznalo($adatok){
+    function Kepfeltoltes($parameterek){
         $kapcsolat = $this->kapcsolatnyit();
-        $lekerdezes = $kapcsolat->prepare("");
+        $lekerdezes = $kapcsolat->prepare("INSERT INTO Munkak (kep, elado, leiras, keszult, meret, ar)
+                                          VALUES(:kep, :elado, :leiras, :keszult, :meret, :ar)");   
+        $sqlParametek = $this->ParameterBerako($parameterek);
+        $sikeres = $lekerdezes->execute($sqlParametek);
+        $this->kapcsolatzar($kapcsolat);
+        return $sikeres;
     }
 
 }

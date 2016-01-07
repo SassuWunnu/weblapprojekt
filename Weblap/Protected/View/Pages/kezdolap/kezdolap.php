@@ -23,8 +23,7 @@
             <p>Futtatáshoz szükséges egy adatbázis shopdatabase néven utf8-hungarian kódolással (phpmyadmin)</p>
             <button type="submit" name="dbtablagomb" value="dbtablagomb">adatbázis tábla létrerehozó</button>
         </div>
-        </form>
-    <!------------------------------------------------------------------------->        
+        </form>      
     <!-----------------------------Felhasználók listája ----------------------->
     <div class="boxokr">
         <table border="2">
@@ -57,7 +56,28 @@
             </tbody>
         </table>
     </div>
-    <!------------------------------------------------------------------------->
+    <br>
+    <br>
+    <div style="clear: both;"></div>
+    <!------------------------------- Kép feltöltés --------------------------->
+    <p><b>Kép feltöltése</b></p>
+    <div>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label for="keszult">Készült:</label>
+            <input type="date" name="keszult" id="keszult"/><br>
+            <label>Eladó-e:</label><br>
+            <input type="radio" name="elado" value="true" checked/>Eladó<br>
+            <input type="radio" name="elado" value="false"/>Nem eladó<br>
+            <label for="meret">Méret:</label>
+            <input type="text" name="meret" id="meret"/><br>
+            <label for="ar">Ára:</label>
+            <input type="text" name="ar" id="ar"/><br>
+            <label for="leiras">Leírás:</label><br>
+            <textarea name="leiras" id="leiras" rows="5"></textarea><br>
+            <input type="file" name="kepfile"/><br>
+            <button type="submit" name="kepfeltoltes">Feltölt</button>
+        </form>
+    </div>
 </div>
 
 </div>   

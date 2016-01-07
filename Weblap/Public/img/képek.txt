@@ -1,0 +1,1 @@
+Jelenleg nem adatbázisban vannak tárolva a képek hanem ebben a mappában random generált névvel ellátva.

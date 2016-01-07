@@ -21,7 +21,7 @@ function ellenorzo($felhasznalo,$password){
         }
         
         //további ellenőrzések: injection védelem, bot védelem
-        
+        return false;
 }
 function egyeztetes($felhasznalo,$password){
     
